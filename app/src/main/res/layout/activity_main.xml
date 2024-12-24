@@ -11,10 +11,40 @@
         android:id="@+id/textview_moviename"
         android:layout_width="137dp"
         android:layout_height="39dp"
-        android:text="Back to the Future"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="16dp"
+        android:text="Karate Kid"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.689"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView_moviePoster" />
+
+    <ImageView
+        android:id="@+id/imageView_moviePoster"
+        android:layout_width="1113dp"
+        android:layout_height="538dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_21866704635009131"
+        tools:layout_editor_absoluteY="-186dp" />
+
+    <TextView
+        android:id="@+id/textView_Tagline"
+        android:layout_width="135dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:text="gvhfvnekvn bwjbvfuw"
+        app:layout_constraintStart_toStartOf="@+id/textview_moviename"
+        app:layout_constraintTop_toBottomOf="@+id/textview_moviename" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="118dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_moviePoster"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_moviePoster"
+        app:srcCompat="@drawable/the_karate_kid_35th_anniversary___paul_shipper" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
